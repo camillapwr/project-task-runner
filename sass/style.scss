@@ -1,20 +1,23 @@
-
-*, *::before, *::after {
-    box-sizing:border-box;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0 auto;
     text-align: center;
     background: white;
     font-family: 'Open Sans', sans-serif;
 }
+
 img {
     /*height: 100%;*/
     object-fit: cover;
 }
+
 .splash {
-    background-color: red;
-    background-image: url('bg.jpg');
+    background-image: url("https://i.postimg.cc/26sF9RH7/pexels-element-digital-1051077-2.jpg");
     height: 100vh;
     width: 80%;
     margin: auto;
@@ -22,16 +25,63 @@ img {
     background-size: cover;
     background-attachment: fixed;
 }
+
 .splash-inner {
     height: 100%;
-    /*display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;*/
+    text-align: center;
 }
+
 .splash-shadow {
-   background: rgba(0,0,0,.5);
+    background: rgba(0, 0, 0, .5);
     height: 100%;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: space between;
+    width: 25%;
+    color: #ffc107;
+    font-style:italic
+}
+
+
+
+h1, h4 {
+    color: white;
+}
+h4 {
+    font-style:italic
+}
+
+button {
+    background: #ffc107;
+    color: white;
+    margin: 50px 50px;
+    cursor: pointer;
+    border-radius: 5%;
+    padding: 15px;
+    border: none;
+    font-size: 14px;
+}
+.footer p {
+    font-size: 12px;
 }
 i {
     color: white;
@@ -41,6 +91,6 @@ i {
     line-height: 40px;
     border-radius: 50%;
     font-size: 20px;
-    padding-top: 10px
-  
+    padding-top: 10px;
+    margin: 10px 3px;
 }
