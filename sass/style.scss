@@ -73,7 +73,8 @@ h3 {
 }
 
 h2 {
-    font-size: 18px;
+    font-weight: bolder;
+    font-size: 24px;
 }
 
 button {
@@ -111,14 +112,13 @@ section {
 .services i {
     font-size: 35px;
     background-color: white;
-    border: 5px solid #ffc107;
+    border: 3px solid #ffc107;
     width: 70px;
     height: 70px;
     line-height: 70px;
     color: #ffc107;
     border-radius: 50%;
     margin-top: 20px;
-    padding-top: 10px;
 }
 
 .portfolio {
@@ -155,7 +155,7 @@ img {
     font-size: 12px;
 }
 
-i {
+.footer i {
     color: white;
     background-color: black;
     width: 40px;
@@ -163,6 +163,5 @@ i {
     line-height: 40px;
     border-radius: 50%;
     font-size: 20px;
-    padding-top: 10px;
     margin: 10px 3px;
 }
